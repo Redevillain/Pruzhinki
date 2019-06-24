@@ -69,10 +69,27 @@
 .slider {
     text-align: center;
 }
-
+/* Весь текст на сайте */
 .texts {
     margin: auto;
     position: relative;
     width: 70%;
     text-align: center;
+}
+
+/* Чтобы списки нормально по центру отображались */
+ul {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 50%;
+    list-style: none;
+  }
+/* +замена чёрной точки на другой цвет */
+  li::before {
+    content: "•";
+    color: darkcyan;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
 }
