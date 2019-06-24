@@ -1,0 +1,71 @@
+@import url('marvel-bold.css');
+.main_menu {
+    /* height: 60px;*/
+    background: linear-gradient(#e4e4e6, #d6d6d8);
+    padding: 11px 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main_menu nav a {
+    font-family: 'marvel-bold';
+    font-size: 24px;
+    color: #313030;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 25px;
+    margin: 0px 12px;
+}
+
+.main_menu nav {
+    text-align: center;
+}
+
+.main_menu nav a.active {
+    background: rgba(56, 75, 240, 0.829);
+}
+
+.main_menu nav a:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+.main_menu nav a.active:hover {
+    text-decoration: none;
+}
+
+.logo_section {
+    text-align: center;
+    padding: 26px 0px 26px;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    width: 72px;
+    height: 61px;
+    background: rgba(0, 0, 0, .35);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.slider button.slick-prev {
+    left: 0px;
+}
+
+.slider button.slick-next {
+    right: 0px;
+}
+
+.slider {
+    text-align: center;
+}

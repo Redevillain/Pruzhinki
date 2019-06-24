@@ -1,0 +1,19 @@
+{
+  "name": "pruzhinki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redevillain/Pruzhinki.git"
+  },
+  "author": "RDVN, Dolton, RMVRN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redevillain/Pruzhinki/issues"
+  },
+  "homepage": "https://github.com/Redevillain/Pruzhinki#readme"
+}
