@@ -6,12 +6,17 @@
 }
 
 body {
-    background-color: rgb(208, 246, 255);
+    background: rgba(208, 246, 255, .33) url('img/backg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
 }
 
-/** {
-    
-}*/
+* {
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
 
 .center {
     width: 70%;
@@ -85,8 +90,6 @@ body {
 
 /* Чтобы списки нормально по центру отображались */
 
-
-
 .hor {
     display: inline-flexbox;
     margin-left: 50px;
@@ -98,6 +101,7 @@ ul {
 
 
 /* +замена чёрной точки на другой цвет */
+
 li::before {
     content: "•";
     color: rgb(36, 0, 165);
@@ -118,7 +122,7 @@ li::before {
 }
 
 .table {
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 1;
@@ -130,7 +134,7 @@ li::before {
     margin-bottom: 50px;
 }
 
-img.slider  {
+img.slider {
     width: 60%;
 }
 
