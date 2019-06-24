@@ -4,14 +4,14 @@
     background: linear-gradient(#e4e4e6, #d6d6d8);
     padding: 11px 0px;
 }
-/*
+
 * {
-    margin: 0;
-    padding: 0;
+
+        border: 1px solid black;
 }
-*/
+
 .center {
-    width: 1170px;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -78,16 +78,21 @@
 }
 
 /* Чтобы списки нормально по центру отображались */
+#hor {
+ 
+    display: inline-block;
+}
+
 ul {
     border: 1px solid black;
     text-align: left;
-    padding-left: 50%;
     list-style: none;
+    
   }
 /* +замена чёрной точки на другой цвет */
   li::before {
     content: "•";
-    color: darkcyan;
+    color: rgb(36, 0, 165);
     font-weight: bold; 
     display: inline-block; 
     width: 1em; 
@@ -97,11 +102,11 @@ ul {
 .content {
     position: relative;
     border: 1px solid black;
-    width: 65%;
+    width: 70%;
 }
 
 .sidebar {
     position: relative;
     border: 1px solid black;
-    width: 30%;
+    width: 25%;
 }
