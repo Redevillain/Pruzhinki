@@ -93,3 +93,15 @@ ul {
     width: 1em; 
     margin-left: -1em; 
 }
+
+.content {
+    position: relative;
+    border: 1px solid black;
+    width: 65%;
+}
+
+.sidebar {
+    position: relative;
+    border: 1px solid black;
+    width: 30%;
+}
