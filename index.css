@@ -5,6 +5,9 @@
     padding: 11px 0px;
 }
 
+body {
+    background-color: rgb(208, 246, 255);
+}
 
 /*
 * {}
@@ -82,12 +85,11 @@
 
 /* Чтобы списки нормально по центру отображались */
 
-#hor {
-    display: inline-flexbox;
-}
+
 
 .hor {
     display: inline-flexbox;
+    margin-left: 50px;
 }
 
 ul {
@@ -96,7 +98,6 @@ ul {
 
 
 /* +замена чёрной точки на другой цвет */
-
 li::before {
     content: "•";
     color: rgb(36, 0, 165);
@@ -108,10 +109,36 @@ li::before {
 
 .content {
     position: relative;
-    width: 69%;
+    width: 67%;
 }
 
 .sidebar {
     position: relative;
-    width: 27%;
+    width: 23%;
+}
+
+.table {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.slider1 {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img.slider  {
+    width: 60%;
+}
+
+button {
+    background-color: rgb(0, 0, 195);
+    color: #d6d6d8;
+    width: 80%;
+    height: 24%;
+    border-radius: 15px;
+    text-align: center;
 }
