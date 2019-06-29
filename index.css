@@ -7,7 +7,9 @@
 
 
 body {
-    background: rgba(208, 246, 255, .33) ;
+    background: rgba(33, 68, 221, 0.33) ;
+    width: 80%;
+    margin: auto;
   /*  url('img/backg.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -21,7 +23,6 @@ body {
 }
 
 .center {
-    width: 70%;
     margin: 0 auto;
 }
 
@@ -33,7 +34,8 @@ body {
     display: inline-block;
     vertical-align: top;
     padding: 5px 25px;
-    margin: 0px 12px;
+    margin: -2px;
+    border-right: 1px solid white;
 }
 
 .main_menu nav {
@@ -42,7 +44,7 @@ body {
 
 .main_menu nav a.active {
     background: rgb(114, 114, 235);
-    border-radius: 10px;
+   /* border-radius: 10px;*/
 }
 
 .main_menu nav a:hover {
@@ -54,10 +56,10 @@ body {
 }
 
 .logo_section {
-    text-align: center;
+   /* text-align: center;*/
     padding: 26px 0px 26px;
 }
-
+/*
 .slider button {
     position: absolute;
     top: 50%;
@@ -80,7 +82,7 @@ body {
     text-align: center;
 }
 
-
+*/
 /* Весь текст на сайте */
 
 .texts {
@@ -118,22 +120,23 @@ li::before {
     width: 100%;
 }
 
+/*
 .sidebar {
     position: relative;
     width: 23%;
-}
+}*/
 
 .table {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 1;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
 .slider1 {
-    width: 33%;
+    width: 30%;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -151,3 +154,18 @@ button {
     text-align: center;
     font-size: 100%;
 }
+
+.shapka {
+    margin: 0;
+  /*  margin-left:  -8%;*/
+}
+
+
+.kontacts {
+    width: 30%;
+}
+.kontacts p{
+    margin: 15px;
+    /*padding: 25px;*/
+}
+
