@@ -7,14 +7,24 @@
 
 
 body {
-    background: linear-gradient(to bottom, #0774c7, white) ;
-    width: 80%;
+    background: rgba(33, 68, 221, 0.33) ;
+   
+    width: 90%;
     margin: auto;
   /*  url('img/backg.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     background-blend-mode: lighten;*/
+}
+
+.background {
+    position: fixed;
+    width: 140%;
+    height: 100%;
+    margin-left: -20%;
+    background: linear-gradient(to bottom, rgb(98, 154, 226), rgb(255, 255, 255));
+    z-index: -2;
 }
 
 * {
@@ -62,30 +72,7 @@ body {
    /* text-align: center;*/
     padding: 26px 0px 26px;
 }
-/*
-.slider button {
-    position: absolute;
-    top: 50%;
-    width: 72px;
-    height: 61px;
-    background: rgb(0, 0, 0);
-    z-index: 1;
-    cursor: default;
-}
 
-.slider button.slick-prev {
-    left: 0px;
-}
-
-.slider button.slick-next {
-    right: 0px;
-}
-
-.slider {
-    text-align: center;
-}
-
-*/
 /* Весь текст на сайте */
 
 .texts {
@@ -123,11 +110,7 @@ li::before {
     width: 100%;
 }
 
-/*
-.sidebar {
-    position: relative;
-    width: 23%;
-}*/
+
 
 .table {
     display: flex;
@@ -161,15 +144,30 @@ button {
 
 .shapka {
     margin: 0;
+    width: 60%;
+    min-width: 50%;
+  /*  margin-left:  -8%;*/
+}
+
+.shapka a img{
+    margin: 0;
+    width: 65%;
+    min-width: 55%;
   /*  margin-left:  -8%;*/
 }
 
 
 .kontacts {
     width: 30%;
+    min-width: 15%;
 }
 .kontacts p{
     margin: 15px;
     /*padding: 25px;*/
+}
+
+.deviz {
+    margin: auto;
+    width: 70%;
 }
 
