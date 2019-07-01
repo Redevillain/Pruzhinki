@@ -45,16 +45,17 @@ body {
     vertical-align: top;
     padding: 5px 25px;
     margin: -2px;
-    border: 1px solid white;
-}
+     }
+
 
 .main_menu nav {
     text-align: center;
 }
 
 .main_menu nav a.active {
-    background: rgb(61, 61, 194);
-   /* border-radius: 10px;*/
+    
+    color: black;
+
 }
 
 .main_menu nav a:hover {
@@ -63,6 +64,8 @@ body {
 
 .main_menu nav a.active:hover {
     text-decoration: none;
+    background-color: rgba(0,0,0,0.15);
+    
 }
 
 .logo_section {
@@ -129,13 +132,14 @@ img.slider {
 }
 
 button {
-    background-color: rgb(60, 60, 207);
-    color: #ffffff;
+    background-color: rgb(182, 182, 185);
+    color: #141414;
     width: 80%;
     height: 24%;
-    border-radius: 15px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
     text-align: center;
     font-size: 100%;
+    border-radius: 15px;
 }
 
 .shapka {
