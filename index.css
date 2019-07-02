@@ -9,7 +9,7 @@
 body {
     background: rgba(33, 68, 221, 0.33) ;
    
-    width: 90%;
+    width: 100%;
     margin: auto;
   /*  url('img/backg.png');
     background-repeat: no-repeat;
@@ -174,5 +174,6 @@ button {
 .deviz {
     margin: auto;
     width: 70%;
+    margin-top: -44px;
 }
 
