@@ -120,7 +120,7 @@ li::before {
     width: 90%;
     margin: auto;
     background-color: rgba(0,0,0,0.1);
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .slider1 {
