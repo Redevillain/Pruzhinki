@@ -1,21 +1,23 @@
 @import url('marvel-bold.css');
 .main_menu {
     /* height: 60px;*/
-   /* background: rgba(208, 246, 255, .33) ;*/
+    /* background: rgba(208, 246, 255, .33) ;*/
     padding: 11px 0px;
 }
 
-
 body {
-    background: rgba(33, 68, 221, 0.33) ;
-   
+    background: rgba(33, 68, 221, 0.33);
     width: 100%;
     margin: auto;
-  /*  url('img/backg.png');
+    /*  url('img/backg.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     background-blend-mode: lighten;*/
+}
+
+a {
+    text-decoration: none;
 }
 
 .background {
@@ -45,17 +47,14 @@ body {
     vertical-align: top;
     padding: 5px 25px;
     margin: -2px;
-     }
-
+}
 
 .main_menu nav {
     text-align: center;
 }
 
 .main_menu nav a.active {
-    
     color: black;
-
 }
 
 .main_menu nav a:hover {
@@ -64,14 +63,14 @@ body {
 
 .main_menu nav a.active:hover {
     text-decoration: none;
-    background-color: rgba(0,0,0,0.15);
-    
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .logo_section {
-   /* text-align: center;*/
+    /* text-align: center;*/
     padding: 26px 0px 26px;
 }
+
 
 /* Весь текст на сайте */
 
@@ -110,8 +109,6 @@ li::before {
     width: 100%;
 }
 
-
-
 .table {
     display: flex;
     justify-content: space-around;
@@ -119,8 +116,8 @@ li::before {
     flex: 1;
     width: 90%;
     margin: auto;
-    background-color: rgba(0,0,0,0.1);
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
 }
 
 .slider1 {
@@ -133,7 +130,7 @@ li::before {
 img.slider {
     width: 60%;
     border: #141414;
-    border-radius:10px;
+    border-radius: 10px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -142,7 +139,7 @@ button {
     color: #141414;
     width: 61%;
     height: 24%;
-    box-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
     text-align: center;
     font-size: 100%;
     border-radius: 15px;
@@ -152,22 +149,38 @@ button {
     margin: 0;
     width: 60%;
     min-width: 50%;
-  /*  margin-left:  -8%;*/
+    /*  margin-left:  -8%;*/
 }
 
-.shapka a img{
+.shapka a img {
     margin: 0;
     width: 65%;
     min-width: 55%;
-  /*  margin-left:  -8%;*/
+    /*  margin-left:  -8%;*/
 }
 
+.kontacts1 {
+    width: 30%;
+    min-width: 10%;
+}
 
 .kontacts {
     width: 30%;
-    min-width: 15%;
+    min-width: 10%;
+    /* position: absolute; */
+    /* Фиксированное положение */
+    /* right: 10px; */
+    /* Расстояние от правого края окна браузера */
+    /* top: 20%; */
+    /* Расстояние сверху */
+    /* padding: 10px; */
+    /* Поля вокруг текста */
+    /* Цвет фона */
+    /* Параметры рамки */
+    /* margin-left: 25%; */
 }
-.kontacts p{
+
+.kontacts p {
     margin: 15px;
     /*padding: 25px;*/
 }
@@ -178,7 +191,9 @@ button {
     margin-top: -44px;
 }
 
+
 /*Кнопка наверх*/
+
 .back_to_top {
     position: fixed;
     bottom: 80px;
@@ -193,65 +208,77 @@ button {
     cursor: pointer;
     border-radius: 2px;
     display: none;
-  }
-  
-  .back_to_top:hover {
+}
+
+.back_to_top:hover {
     background: #e9ebec;
-  }
-  
-  .back_to_top-show {
+}
+
+.back_to_top-show {
     display: block;
-  }
-
-  .modalDialog {
-	position: fixed;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	display: none;
-	pointer-events: none;
 }
+
+.modalDialog {
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+
 .modalDialog:target {
-	display: block;
-	pointer-events: auto;
+    display: block;
+    pointer-events: auto;
 }
 
-.modalDialog > div {
-	width: 600px;
-	position: relative;
-	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+.modalDialog>div {
+    width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
 }
+
 .close {
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 25px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 24px;
-	text-decoration: none;
-	font-weight: bold;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
-	-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;
-	box-shadow: 1px 1px 3px #000;
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: #00d9ff; }
+.close:hover {
+    background: #00d9ff;
+}
 
+#i {
+    width: 17%;
+}
+
+#i.text_right,
+#i.text_right p {
+    text-align: right;
+}
