@@ -69,6 +69,11 @@ a {
 .logo_section {
     /* text-align: center;*/
     padding: 26px 0px 26px;
+    vertical-align: middle;
+}
+
+.logo_section div {
+    vertical-align: middle;
 }
 
 
@@ -117,7 +122,7 @@ li::before {
     width: 90%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.1);
-    padding-top: 20px;
+    padding: 25px;
 }
 
 .slider1 {
@@ -160,12 +165,12 @@ button {
 }
 
 .kontacts1 {
-    width: 30%;
+    width: 25%;
     min-width: 10%;
 }
 
 .kontacts {
-    width: 30%;
+    width: 25%;
     min-width: 10%;
     /* position: absolute; */
     /* Фиксированное положение */
@@ -181,8 +186,16 @@ button {
 }
 
 .kontacts p {
-    margin: 15px;
+    margin-bottom: -5px;
+    margin-top: 4px;
+    margin-left: 5px;
     /*padding: 25px;*/
+}
+
+
+
+.icons {
+    width: 30px;
 }
 
 .deviz {
@@ -199,12 +212,12 @@ button {
     bottom: 80px;
     right: 40px;
     z-index: 9999;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     line-height: 30px;
-    background: #f5f5f5;
-    color: #444;
+    background: #4b80f3;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 2px;
     display: none;
@@ -274,11 +287,5 @@ button {
     background: #00d9ff;
 }
 
-#i {
-    width: 17%;
-}
 
-#i.text_right,
-#i.text_right p {
-    text-align: right;
-}
+
