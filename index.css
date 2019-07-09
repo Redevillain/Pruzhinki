@@ -280,3 +280,8 @@ button {
 iframe {
     border-radius: 10px;
 }
+
+.str_kon p {
+    margin: 0;
+    margin-top: 2px;
+}
