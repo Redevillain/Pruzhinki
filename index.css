@@ -273,6 +273,10 @@ button {
 }
 
 .map {
-    text-align: center;
     margin: auto;
+    margin-left: 12%;
+}
+
+iframe {
+    border-radius: 10px;
 }
