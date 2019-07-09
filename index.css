@@ -144,8 +144,8 @@ button {
 
 .shapka {
     margin: 0;
-    width: 60%;
-    min-width: 50%;
+    width: 45%;
+    min-width: 240px;
     /*  margin-left:  -8%;*/
 }
 
@@ -157,12 +157,12 @@ button {
 }
 
 .kontacts1 {
-    width: 25%;
+    width: 22%;
     min-width: 10%;
 }
 
 .kontacts {
-    width: 25%;
+    width: 28%;
     min-width: 10%;
 }
 
