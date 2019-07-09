@@ -164,7 +164,6 @@ button {
 .kontacts {
     width: 25%;
     min-width: 10%;
-  
 }
 
 .kontacts p {
@@ -172,8 +171,6 @@ button {
     margin-top: 4px;
     margin-left: 5px;
 }
-
-
 
 .icons {
     width: 30px;
@@ -279,8 +276,3 @@ button {
     text-align: center;
     margin: auto;
 }
-
-
-
-
-
