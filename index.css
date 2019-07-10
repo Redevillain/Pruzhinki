@@ -162,13 +162,13 @@ button {
 }
 
 .kontacts {
-    width: 30%;
+    width: 250px;
     min-width: 15%;
 }
 
 .kontacts p {
-    margin-bottom: -5px;
-    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     margin-left: 5px;
 }
 
