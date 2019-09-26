@@ -292,7 +292,7 @@ iframe {
 .accordion {
   color: darkblue;
   cursor: pointer;
-  padding: 5px;
+  
   width: 100%;
   border: none;
   text-align: left;
@@ -306,7 +306,8 @@ iframe {
 }
 
 .panel {
-  padding: 0 18px;
+  margin: 13px;
+  padding: 8px;
   display: none;
   background-color: white;
   overflow: hidden;
