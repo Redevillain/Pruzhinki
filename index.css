@@ -312,3 +312,28 @@ iframe {
   background-color: white;
   overflow: hidden;
 }
+
+#zayavka {
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: rgb(60, 75, 211);
+    font-size: 2rem;
+    height: 150px;
+    margin-left: 10%;
+    display: fixed;
+}
+#zayavka2 {
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: rgb(60, 75, 211);
+    font-size: 2rem;
+    height: 150px;
+    margin-left: 30%;
+    display: inline-block;
+    position: absolute;
+}
+#forma {
+    background-color: inherit;
+}
