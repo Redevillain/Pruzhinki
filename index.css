@@ -312,3 +312,66 @@ iframe {
   background-color: white;
   overflow: hidden;
 }
+.card {
+    width: 420px;
+    min-height: 420px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 65px;
+  }
+  .image {
+    width: 420px;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+  .module {
+    background-image: url('img/gallery/photo_2019-09-26_10-34-29.jpg');
+    
+  }
+  .near {
+    background-image: url('img/gallery/photo_2019-09-26_10-34-41.jpg');
+  }
+  .fonts {
+    background-image: url('img/gallery/photo_2019-09-26_10-35-07.jpg');
+  }
+  .colors {
+    background-image: url('img/gallery/photo_2019-09-26_10-35-20.jpg');
+  }
+  .rules {
+    width: 910px;
+    margin: 90px auto 0;
+  }
+  .module-card {
+    margin-right: 0;
+  }
+  .colors-card {
+    margin-right: 0;
+  }
+  .card h3 {
+    font-size: 35px;
+    font-family: 'Anonymous Pro';
+    font-weight: bold;
+    margin: 44 auto 30;
+  }
+  .card p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 90px;
+  }
+  .footer {
+    height: 100px;
+    background-color: #000;
+    box-sizing: border-box;
+    padding-top:30px;
+  }
+  .logo {
+    width: 148px;
+    height: 38px;
+    background-image: url(https://pictures.s3.yandex.net/logotype.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+  }
