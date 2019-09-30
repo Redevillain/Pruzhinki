@@ -383,3 +383,199 @@ body {
     border: 1px solid; 
     border-color:rgba(35, 55, 168, 0.15)
 }
+
+.square {
+    /* margin: 0; */
+    counter-reset: li;
+    list-style: none;
+    padding: 10px;
+}
+ 
+.square li {
+    position: relative;
+    margin: 0 0 10px 2em;
+    padding: 4px 8px;
+    /* border-top: 2px solid #787A77; */
+    transition: .3s linear;
+}
+ 
+.square li:last-child {
+    margin-bottom: 0;
+}
+ 
+.square li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    /* - цифры вдоль стены */
+    /* position: relative; */
+    /* top: -2px; */
+    left: -2em;
+    width: 2em;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 2px;
+    /* border-top: 2px solid #787A77;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid #787A77; */
+    background: rgba(2, 3, 1, 0.623);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    transition: .3s linear;
+}
+ 
+/* .square li:hover {
+    border-top: 2px solid #389F70;
+    border-bottom: 2px solid #389F70;
+} */
+ 
+.square li:hover:before {
+    border: 2px solid #389F70;
+    background: #98EABA;
+}
+ 
+.square li:hover:after {
+    border: 2px solid #389F70;
+    background: #98EABA;
+}
+
+  /*кнопки на главной*/
+  .knopki {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 5%;
+    height: 150px;
+    display: block;
+  }
+  .knopka1 {
+    float: left;
+    width: 30%;
+  }
+  .knopka2 {
+    float: right;
+    width: 30%;
+    }
+.pole {
+    border-radius: 5px;
+}
+.accordion {
+  color: darkblue;
+  cursor: pointer;
+  
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  color: blue;
+}
+
+.panel {
+  margin: 13px;
+  padding: 8px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+#zayavka {
+    text-align: center;
+    color: white;
+    background-color: rgb(60, 75, 211);
+    font-size: 2rem;
+    height: 150px;
+    display: fixed;
+}
+
+#forma {
+    background-color: inherit;
+}
+.card {
+    width: 420px;
+    min-height: 420px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 65px;
+  }
+  .image {
+    width: 420px;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+  .module {
+    background-image: url('img/gallery/photo_2019-09-26_10-34-29.jpg');
+    
+  }
+  .near {
+    background-image: url('img/gallery/photo_2019-09-26_10-34-41.jpg');
+  }
+  .fonts {
+    background-image: url('img/gallery/photo_2019-09-26_10-35-07.jpg');
+  }
+  .colors {
+    background-image: url('img/gallery/photo_2019-09-26_10-35-20.jpg');
+  }
+  .rules {
+    width: 910px;
+    margin: 90px auto 0;
+  }
+  .module-card {
+    margin-right: 0;
+  }
+  .colors-card {
+    margin-right: 0;
+  }
+  .card h3 {
+    font-size: 35px;
+    font-family: 'Anonymous Pro';
+    font-weight: bold;
+    margin: 44 auto 30;
+  }
+  .card p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 90px;
+  }
+  .footer {
+    height: 100px;
+    background-color: #000;
+    box-sizing: border-box;
+    padding-top:30px;
+  }
+  .logo {
+    width: 148px;
+    height: 38px;
+    background-image: url(https://pictures.s3.yandex.net/logotype.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+  }
+
+  /*кнопки на главной*/
+  .knopki {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 5%;
+    height: 150px;
+    display: block;
+  }
+  .knopka1 {
+    float: left;
+    width: 30%;
+  }
+  .knopka2 {
+    float: right;
+    width: 30%;
+    }
+.pole {
+    border-radius: 5px;
+}
