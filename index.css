@@ -312,66 +312,69 @@ iframe {
   background-color: white;
   overflow: hidden;
 }
-.card {
-    width: 420px;
-    min-height: 420px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 65px;
-  }
-  .image {
-    width: 420px;
-    height: 420px;
-    background-position: center;
-    background-size: cover;
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+}
+.photo {
+	float: left;
+    width: 25%;
+    height: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #eee;
     box-sizing: border-box;
-  }
-  .module {
-    background-image: url('img/gallery/photo_2019-09-26_10-34-29.jpg');
-    
-  }
-  .near {
-    background-image: url('img/gallery/photo_2019-09-26_10-34-41.jpg');
-  }
-  .fonts {
-    background-image: url('img/gallery/photo_2019-09-26_10-35-07.jpg');
-  }
-  .colors {
-    background-image: url('img/gallery/photo_2019-09-26_10-35-20.jpg');
-  }
-  .rules {
-    width: 910px;
-    margin: 90px auto 0;
-  }
-  .module-card {
-    margin-right: 0;
-  }
-  .colors-card {
-    margin-right: 0;
-  }
-  .card h3 {
-    font-size: 35px;
-    font-family: 'Anonymous Pro';
-    font-weight: bold;
-    margin: 44 auto 30;
-  }
-  .card p {
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 90px;
-  }
-  .footer {
-    height: 100px;
-    background-color: #000;
-    box-sizing: border-box;
-    padding-top:30px;
-  }
-  .logo {
-    width: 148px;
-    height: 38px;
-    background-image: url(https://pictures.s3.yandex.net/logotype.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+.photo a:hover {
+    opacity: 0.5;
+}
+.photo a {
+    display: block;
+    position: relative;
+}
+.photo a:after {
+    content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;
+    height: 35px;
+    position: absolute;
     margin: auto;
-  }
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}
+.photo:hover> a:after {
+    visibility: visible;
+}
+.photo figcaption {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+.container h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #110a0a;
+    text-align: center;
+    margin: 30px 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#gallery {
+    margin-bottom: 60px;
+}
+#gallery:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
