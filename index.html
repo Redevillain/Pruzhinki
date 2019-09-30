@@ -92,21 +92,26 @@
     <div style="display: flex; justify-content: space-around; width: 70%; margin: auto; ">
         <div class="content ">
 
+                <div class="knopki">
+                    <div class="knopka2">
                 <button id="zayavka" class="accordion">Оставить заявку</button>
                 <form id="forma" class="panel" action="send.php" method="post">
                         <p><strong>Как вас зовут?</strong></p>
-                        <p><input name="name" maxlength="25" size="40" value=""></p>
+                        <p><input class="pole" name="name" maxlength="25" size="40" value=""></p>
                         <p><strong>Номер телефона</strong></p>
-                        <p><input name="number" maxlength="25" size="40" value=""></p>
-                        <p><input type="submit"></p>
+                        <p><input  class="pole" name="number" maxlength="25" size="40" value=""></p>
+                        <p><input  class="pole" type="submit"></p>
                 </form>
+                    </div>
 
-                <button onclick="location.href='mailto:universalsprings@yandex.ru';" id="zayavka2" class="accordion">Написать письмо</button>
-                
+                    <div class="knopka1">
+                <button onclick="location.href='mailto:universalsprings@yandex.ru';" id="zayavka" class="accordion">Написать письмо</button>
+                    </div>
+            </div>
 
 
 
-            <h1><u>Наши преимущества:</u></h1>
+            <h1 style="align-self: left;"><u>Наши преимущества:</u></h1>
 
             <h2>Цена</h2>
             <b><ul>
@@ -214,9 +219,14 @@
 
 
         </div>
+       
     </div>
 
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
 

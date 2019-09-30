@@ -314,26 +314,14 @@ iframe {
 }
 
 #zayavka {
-    width: 25%;
     text-align: center;
     color: white;
     background-color: rgb(60, 75, 211);
     font-size: 2rem;
     height: 150px;
-    margin-left: 10%;
     display: fixed;
 }
-#zayavka2 {
-    width: 25%;
-    text-align: center;
-    color: white;
-    background-color: rgb(60, 75, 211);
-    font-size: 2rem;
-    height: 150px;
-    margin-left: 30%;
-    display: inline-block;
-    position: absolute;
-}
+
 #forma {
     background-color: inherit;
 }
@@ -400,3 +388,23 @@ iframe {
     background-position: center;
     margin: auto;
   }
+
+  /*кнопки на главной*/
+  .knopki {
+    text-align: center;
+    height: 100px;
+    margin-bottom: 5%;
+    height: 150px;
+    display: block;
+  }
+  .knopka1 {
+    float: left;
+    width: 30%;
+  }
+  .knopka2 {
+    float: right;
+    width: 30%;
+    }
+.pole {
+    border-radius: 5px;
+}
